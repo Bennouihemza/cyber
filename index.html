@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - مقهى إنترنت</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="شعار المقهى">
+                <h1>Game<span>Zone</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#pricing">الباقات</a></li>
+                <li><a href="#gallery">المعرض</a></li>
+                <li><a href="#contact">التواصل</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>استعد للمغامرة في <span>GameZone</span></h2>
+            <p>أحدث أجهزة الجيمنج، إنترنت فائق السرعة، أجواء تنافسية</p>
+            <div class="hero-buttons">
+                <a href="#pricing" class="btn btn-primary">عرض الباقات</a>
+                <a href="#contact" class="btn btn-secondary">احجز الآن</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">خدماتنا</h2>
+        <div class="services-container">
+            <div class="service-tabs">
+                <button class="tab-btn active" data-tab="in-shop">داخل المحل</button>
+                <button class="tab-btn" data-tab="remote">عن بُعد</button>
+            </div>
+
+            <div class="service-content">
+                <div id="in-shop" class="tab-pane active">
+                    <div class="service-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <h3>أجهزة جيمنج</h3>
+                            <p>أجهزة بمواصفات عالية لتشغيل أحدث الألعاب بسلاسة</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h3>بطولات</h3>
+                            <p>تنظيم بطولات لألعاب مثل PUBG, Fortnite, Valorant</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-wifi"></i>
+                            </div>
+                            <h3>إنترنت سريع</h3>
+                            <p>اتصال إنترنت بسرعة 1Gbps لتجربة لعب خالية من التقطعات</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-print"></i>
+                            </div>
+                            <h3>طباعة</h3>
+                            <p>خدمات طباعة مستندات وبطاقات بجودة عالية</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="remote" class="tab-pane">
+                    <div class="service-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>تصميم مواقع</h3>
+                            <p>تصميم مواقع احترافية متجاوبة لعملك أو مشروعك</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <h3>معالجة نصوص</h3>
+                            <p>كتابة وتنسيق المستندات والبحوث</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h3>تخزين سحابي</h3>
+                            <p>مساعدتك في تخزين وإدارة ملفاتك على السحابة</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-translate"></i>
+                            </div>
+                            <h3>ترجمة</h3>
+                            <p>ترجمة المستندات بين اللغات المختلفة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h2 class="section-title">باقاتنا</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>باقة المبتدئ</h3>
+                <div class="price">500 دج <span>/ساعة</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> جهاز جيمنج متوسط</li>
+                    <li><i class="fas fa-check"></i> إنترنت سريع</li>
+                    <li><i class="fas fa-check"></i> مشروب مجاني</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">احجز الآن</a>
+            </div>
+            <div class="pricing-card popular">
+                <div class="popular-tag">الأكثر طلباً</div>
+                <h3>باقة المحترف</h3>
+                <div class="price">800 دج <span>/ساعة</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> جهاز جيمنج متطور</li>
+                    <li><i class="fas fa-check"></i> إنترنت فائق السرعة</li>
+                    <li><i class="fas fa-check"></i> مشروبين مجانيين</li>
+                    <li><i class="fas fa-check"></i> خصم 10% على البطولات</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">احجز الآن</a>
+            </div>
+            <div class="pricing-card">
+                <h3>باقة البطل</h3>
+                <div class="price">1200 دج <span>/ساعة</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> جهاز جيمنج متميز</li>
+                    <li><i class="fas fa-check"></i> إنترنت 1Gbps</li>
+                    <li><i class="fas fa-check"></i> مشروبات غير محدودة</li>
+                    <li><i class="fas fa-check"></i> دخول مجاني للبطولات</li>
+                    <li><i class="fas fa-check"></i> مقعد VIP</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">احجز الآن</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2 class="section-title">معرض الألعاب</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/game1.jpg" alt="PUBG">
+                <div class="game-name">PUBG</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/game2.jpg" alt="GTA V">
+                <div class="game-name">GTA V</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/game3.jpg" alt="Fortnite">
+                <div class="game-name">Fortnite</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/game4.jpg" alt="Valorant">
+                <div class="game-name">Valorant</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/game5.jpg" alt="Call of Duty">
+                <div class="game-name">Call of Duty</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/game6.jpg" alt="CS:GO">
+                <div class="game-name">CS:GO</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">تواصل معنا</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>العنوان</h3>
+                    <p>123 شارع الألعاب، الحي الجديد، الجزائر</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>الهاتف</h3>
+                    <p>+213 123 456 789</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>البريد الإلكتروني</h3>
+                    <p>info@gamezone.dz</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>أوقات العمل</h3>
+                    <p>يومياً من 10 صباحاً إلى 12 منتصف الليل</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="شعار المقهى">
+                <h2>Game<span>Zone</span></h2>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 GameZone. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
